@@ -19,6 +19,7 @@ header {
     width: 100%;
     align-items: center;
     background-color: black;
+    z-index: 1;
 }
 
 header img {
@@ -97,4 +98,47 @@ a {
 
 .image-box h4 {
     margin-top: 10px;
+}
+
+#locations {
+    display: inline-flex;
+    justify-content: center;
+    background-image: url("../images/img-locations-background.jpg");
+    width: 1200px;
+    height: 600px;
+    margin-top: 70px;
+}
+
+.location-container {
+    align-self: center;
+    position: relative;
+    bottom: 30px;
+}
+
+#info-boxes {
+    display: inline-flex;
+    align-self: center;
+}
+
+.info-box {
+    position: relative;
+    bottom: 15px;
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+}
+
+#contact {
+    height: 200px;
+}
+
+#contact h2{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+footer {
+    padding: 0px;
+    text-align: left;
+    margin: 0px 20px;
 }
