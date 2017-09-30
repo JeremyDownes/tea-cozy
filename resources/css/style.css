@@ -37,5 +37,21 @@ a {
 }
 
 #mission-statement {
+    display: flex;
     padding-top: 70px;
+    width: 100%;
+    justify-content: center;
+}
+
+.content-box {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    background-image: url("../images/img-mission-background.jpg");
+    align-items: center;
+}
+
+#mission-statement span {
+    background-color: black;
+    width: 100%;
 }
