@@ -36,14 +36,14 @@ a {
     color: seashell;
 }
 
-#mission-statement {
+#mission-statement, #tea-of-the-month {
     display: flex;
     padding-top: 70px;
     width: 100%;
     justify-content: center;
 }
 
-.content-box {
+#mission-statement .content-box {
     display: flex;
     width: 1200px;
     height: 700px;
@@ -54,4 +54,47 @@ a {
 #mission-statement span {
     background-color: black;
     width: 100%;
+}
+
+#tea-of-the-month .content-box {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.image-box {
+    height: 250px;
+    width: 320px;
+    display: inline-block;
+}
+
+.fall-berry, .spiced-rum, .donut, .myrtle-ave, .bedford-bizarre {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;    
+}
+
+.fall-berry {
+    background-image: url("../images/img-berryblitz.jpg");
+}
+
+.spiced-rum {
+    background-image: url("../images/img-spiced-rum.jpg");
+}
+
+.donut {
+    background-image: url("../images/img-donut.jpg");
+}
+
+.myrtle-ave {
+    background-image: url("../images/img-myrtle-ave.jpg");
+}
+
+.bedford-bizarre {
+    background-image: url("../images/img-bedford-bizarre.jpg");
+}
+
+.image-box h4 {
+    margin-top: 10px;
 }
