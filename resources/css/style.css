@@ -57,6 +57,10 @@ a {
     width: 100%;
 }
 
+#mission-statement span > * {
+    margin: 10px auto;
+}
+
 #tea-of-the-month .content-box {
     display: flex;
     width: 1000px;
